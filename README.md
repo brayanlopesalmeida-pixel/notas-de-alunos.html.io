@@ -1,1 +1,75 @@
-# notas-de-alunos.html.io
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Controle de Notas</title>
+
+<style>
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+  body{
+    background:#f2f2f2;
+
+  }
+  .conteiner{
+    width:900px;
+    margin:40px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+
+  }
+  h1{
+    text-align:center;
+    margin-buttom:20px
+    color:#004080;
+
+  }
+  .formulario{
+    display:grid;
+    grid-template-columns:2fr repeat(4, 1fr) auto;
+    gap:10px;
+    margin-buttom:25px;
+
+  }
+  input{
+   padding:10px;
+   border:1px solid #ccc;
+   border-radius:5px;
+
+  }
+  button{
+   background:#007bff;
+   color:white;
+   border:none;
+   border-radius:5px;
+   cursor:pointer;
+   font-size:16px;
+
+  }
+  button:hover{
+   background:#0056b3
+
+  }
+  table{
+   width:100%;
+   border-collapse:collapse
+  }
+
+  th{
+   background:#004080;
+   color:white;
+   padding:12px;
+  }
+  td{
+   text-align:center;
+   padding:10px;
+   border-buttom:1px solid #ddd;
+  }
+  .aprovado
